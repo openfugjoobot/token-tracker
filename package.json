@@ -2,7 +2,7 @@
   "name": "token-tracker",
   "version": "1.0.0",
   "description": "Simple local token counter for AI agents",
-  "main": "index.js",
+  "main": "cli.js",
   "bin": {
     "token-log": "./cli.js",
     "token-stats": "./cli.js"
@@ -10,5 +10,8 @@
   "scripts": {
     "start": "node cli.js"
   },
+  "keywords": ["openclaw", "skill", "token", "tracker", "usage", "llm"],
+  "author": "OpenFugjooBot",
+  "license": "MIT",
   "dependencies": {}
 }
